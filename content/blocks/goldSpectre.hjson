@@ -1,7 +1,11 @@
 type: ItemTurret
 health: 4800
 size: 4
-range: 240
+range: 320
+reloadTime: 7
+spread: 8
+alternate: true
+inaccuracy: 2
 coolantMultiplier: 5
 shootShake: 1
 shootSound: shootBig
@@ -10,11 +14,13 @@ ammoTypes: {
     type: BasicBulletType
     width: 15
     height: 21
-    lifetime: 60
-    speed: 7
+    lifetime: 30
+    hitSize: 10
+    speed: 10
     damage: 100
-    pierce: false
-    ammoMultiplier: 4
+    pierceCap: 2
+    pierce: true
+    ammoMultiplier: 3
     frontColor: F0E4A8
     backColor: deae66
   }
