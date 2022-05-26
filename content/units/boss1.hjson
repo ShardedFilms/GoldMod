@@ -1,12 +1,12 @@
 type: mech
 speed: 0.35
-hitSize: 26
+hitSize: 30
 rotateSpeed: 1.65
 flying: false
 health: 72000
-armor: 14
-mechFrontSway: 1.9
-mechSideSway: 0.6
+armor: 28
+mechFrontSway: 0
+mechSideSway: 0
 weapons: [
   {
   name: boss1-blaster
@@ -22,12 +22,13 @@ weapons: [
   bullet: {
     type: BasicBulletType
     speed: 13
-    damage: 135
+    damage: 140
     pierce: true
     pierceCap: 12
+    hitSize: 6
     width: 14
     height: 32
-    lifetime: 15
+    lifetime: 20
     shootEffect: shootBig
     fragVelocityMin: 0.4
     hitEffect: blastExplosion
@@ -39,7 +40,7 @@ weapons: [
     fragBullet: {
       type: BasicBulletType
       speed: 9
-      damage: 15
+      damage: 30
       width: 10
       height: 10
       pierce: true
