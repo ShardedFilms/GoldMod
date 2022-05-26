@@ -1,13 +1,14 @@
 type: flying
 speed: 2
 drag: 0.01
+accel: 0.03
 flying: true
 health: 225
 engineOffset: 5.5
 range: 140
 weapons: [{
   y: 1.5
-  reload: 21
+  reload: 12
   alternate: true
   ejectEffect: casing1
   bullet: standardThorium
