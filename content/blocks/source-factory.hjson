@@ -28,51 +28,18 @@ plans: [
     unit: goldenHorizon
     time: 60
   }  {
-    unit: goldenDagger
+    unit: goldenZenith
     time: 60
   }  {
-    unit: goldenDagger
+    unit: goldenAntumbra
     time: 60
   }  {
-    unit: goldenDagger
-    time: 60
-  }  {
-    unit: goldenDagger
-    time: 60
-  }  {
-    unit: goldenDagger
-    time: 60
-  }  {
-    unit: goldenDagger
-    time: 60
-  }  {
-    unit: goldenDagger
-    time: 60
-  }  {
-    unit: goldenDagger
-    time: 60
-  }  {
-    unit: goldenDagger
-    time: 60
-  }  {
-    unit: goldenDagger
-    time: 60
-  }  {
-    unit: goldenDagger
-    time: 60
-  }  {
-    unit: goldenDagger
-    time: 60
-  }  {
-    unit: goldenDagger
+    unit: goldenEclipse
     time: 60
   }
 ]
 requirements: [
-  copper/50
-  lead/120
-  silicon/80
-  goldIngot/50
+  goldIngot/16384
 ]
 category: units
 research: ground-factory
