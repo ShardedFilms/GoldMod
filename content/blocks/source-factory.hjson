@@ -1,5 +1,7 @@
+
 type: UnitFactory
 size: 3
+health: 720
 consumes: {
   power: 0.1
 }
@@ -15,25 +17,32 @@ plans: [
     {
     unit: goldenFortress
     time: 60
-  }  {
+  } 
+   {
     unit: goldenScepter
     time: 60
-  }  {
+  } 
+   {
     unit: boss1
     time: 60
-  }  {
+  } 
+   {
     unit: goldenFlare
     time: 60
-  }  {
+  } 
+   {
     unit: goldenHorizon
     time: 60
-  }  {
+  } 
+   {
     unit: goldenZenith
     time: 60
-  }  {
+  } 
+   {
     unit: goldenAntumbra
     time: 60
-  }  {
+  } 
+   {
     unit: goldenEclipse
     time: 60
   }
