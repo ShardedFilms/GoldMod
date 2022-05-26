@@ -2,6 +2,7 @@ type: flying
 health: 33000
 hitSize: 56
 speed: 0.6
+accel: 0.05
 drag: 0.02
 range: 80
 flying: true
@@ -13,17 +14,17 @@ weapons: [{
   name: goldEclipseGun
   x: -32
   y: 0
-  reload: 10
+  reload: 9
   shootCone: 100
   shake: 1
-  inaccuracy: 3
+  inaccuracy: 2
   alternate: true
   ejectEffect: none
   bullet: {
     type: BasicBulletType
-    speed: 7
-    damage: 126
-    width: 15
+    speed: 8
+    damage: 140
+    width: 14
     height: 21
     shootEffect: shootBig
   }
