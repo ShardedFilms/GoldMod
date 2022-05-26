@@ -6,8 +6,7 @@ drag: 0.02
 range: 200
 engineOffset: 21
 engineSize: 5.3
-rotateSpeed: 0.1
-baseRotateSpeed: 0.04
+rotateSpeed: 1
 flying: true
 weapons: [
   {
@@ -18,7 +17,6 @@ weapons: [
   inaccuracy: 3
   alternate: true
   ejectEffect: casing4
-  velocityRnd: 0.2
   rotate: true
   shootCone: 20
   bullet: {
@@ -27,7 +25,7 @@ weapons: [
     width: 16
     height: 23
     shootEffect: shootBig
-    damage: 65
+    damage: 70
     frontColor: ffffff
     backColor: ff6868
   } 
